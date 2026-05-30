@@ -8,95 +8,182 @@
 
 Unlike traditional analytics that stop at correlation, or static causal systems that treat discovered edges as permanent truth, **EBIS treats every causal belief as provisional.** It continuously challenges its own causal graph using statistical evidence, physics constraints, autonomous experiments, trust signals, and runtime feedback. A discovered relationship is never considered "true"—it must *earn* the right to be believed.
 
----
+## 🏛️ **Actual Runtime Authority Layers**
 
-## 🎯 Core Philosophy
+> *The true authority map of EBIS, derived directly from the core orchestration and subsystem constraints.*
 
-* **Traditional analytics asks:** *Which variables correlate?*
-* **Traditional causal systems ask:** *What causes what?*
-* **EBIS asks:** *Why should I continue believing this causal relationship is true?*
-
-The objective is not just to maintain a causal graph, but to maintain a causal graph that **survives attack from reality**. 
-✅ Causal beliefs are provisional, not permanent.
-✅ No edge is sacred just because it was discovered.
-✅ Discovery is the beginning of an investigation, not the end.
+### 1️⃣ **Layer 1 — Reality Authority: `CRE`**
+* **Role:** *Generates Reality.*
+* **Components:** *Theta Kernel, Runtime Buffer.*
+* **Constraint:** *`CRE never decides causality. It only generates reality.`*
 
 ---
 
-## 🏗 Runtime Architecture
-
-EBIS operates through iterative evidence accumulation rather than a fixed pipeline. The architecture is divided into the following specialized modules:
-
-| Module | Name | Responsibility |
-| :--- | :--- | :--- |
-| **CRE** | Continuous Runtime Engine | Real-time orchestration and continuous engine simulation. |
-| **DIFC** | Dynamic Causal Discovery | 8-stage causal graph discovery (difc_v3). |
-| **SBL** | System Behavior Learner | Physics & behavior learning (powered by 12 physics templates). |
-| **ACIS** | Decision Authority System | Decision governance (11 authorities). |
-| **AEX** | Autonomous Experiment Engine | Controlled, node-level perturbations and experimentation. |
-| **EIL** | Experiment & Intervention Layer | Actuation, stabilization, and runtime feedback. |
+### 2️⃣ **Layer 2 — Observation Authority: `Observer`**
+* **Role:** *Runtime anomaly & verification layer.*
+* **Responsibilities:** *Detects instability, knock, regime shifts, prediction failures, and oscillations.*
+* **Constraint:** *`Observer is a true runtime subsystem (via _observe() funnel); it sees and reports, but does not explain.`*
 
 ---
 
-## 🚀 Runtime Cycle & Evidence Accumulation
+### 3️⃣ **Layer 3 — Discovery Authority: `DIFC`**
+* **Role:** *Causal hypothesis discovery.*
+* **Responsibilities:** *Owns edge topology, propagated effects, and confidence initialization.*
+* **Constraint:** *`DIFC cannot mutate runtime memory (strictly enforced by authority map).`*
 
-EBIS does not rely solely on statistical significance ($R^2$ or t-stats). Evidence must survive physics checks, experimental feedback, freshness audits, and trust evaluations. High statistical confidence does not automatically imply high trust.
+---
+
+### 4️⃣ **Layer 4 — Scientific Validation: `PWE` & `SBL`**
+* **`[PWE]` (Propagated Effect Refinement):** *Owns bootstrap validation and effect refinement.*
+* **`[SBL]` (System Behavior Learner):** *Owns regime continuity and physics-constrained learning.*
+* **Constraint:** *`Neither module owns runtime adaptation.`*
+
+---
+
+### 5️⃣ **Layer 5 — Truth Authority: `ORCH` (Orchestrator)**
+* **Role:** *The True Center of EBIS.*
+* **Responsibilities:** *Owns the Canonical Truth Object, Edge Memory, Experiment History, and Sensitivity Store. Orchestrates adaptation.*
+* **Constraint:** *`Canonical truth is the primary read authority for the entire system.`*
+
+---
+
+### 6️⃣ **Layer 6 — Belief Lifecycle**
+* **Role:** *Where beliefs actually live (Not in ACIS, DIFC, or EIL).*
+* **States:**
+  * 🟢 **`[VALID]`**, 🟡 **`[LATENT]`**, 🟠 **`[CONFLICTING]`**, 🟣 **`[STALE]`**, 🔴 **`[UNRELIABLE]`**, ❌ **`[REJECTED]`**
+
+---
+
+### 7️⃣ **Layer 7 — Evidence Challenge Layer**
+* **Role:** *Attacks beliefs from different directions.*
+* **Vectors:** *`Trust Audit`, `Freshness Audit`, `AEX (Autonomous Evidence Generator)`.*
+
+---
+
+### 8️⃣ **Layer 8 — Governance Layer: `ACIS`**
+* **Role:** *Epistemic Governance & Query Handling.*
+* **Responsibilities:** *Handles memory graph, confidence, sensitivity, optimization, and query governance.*
+* **Constraint:** *`ACIS consumes truth; it is not the owner of truth.`*
+
+---
+
+### 9️⃣ **Layer 9 — Action Layer: `EIL`**
+* **Role:** *Intervention Planning.*
+* **Responsibilities:** *The single intervention authority when stabilizers lose authority.*
+
+---
+
+### 🔟 **Layer 10 — Mutation Authority: `Theta Hub`**
+* **Role:** *The Only Mutator.*
+* **Constraint:** *`Hub changes reality. Verifier judges it.`*
+
+---
+
+## 🔬 **Biggest Open Research Problem (Derived from Code)**
+
+> *The largest unresolved architectural gap in EBIS is the calibration bridge between four different operational representations of the system:*
+
+* **`[Discovery]`** ↔ **`[Experiments]`** ↔ **`[Control]`**
+  * 🔍 **`DIFC`** *works on **variable-level** causal effects.*
+  * 🧪 **`AEX`** *works on **node** perturbations.*
+  * 🎯 **`EIL`** *works on **actuators**.*
+  * 🔧 **`Hub`** *mutates **parameters**.*
+
+*These are four different representations of the exact same system. The calibration bridge between them is still incomplete, leading to structural mismatches (e.g., predicted vs. measured physical responses).*
+
+---
+
+# 🧬 **EBIS — Actual Runtime Organism**
 
 ```mermaid
 flowchart TD
-    %% Styling: High-End Professional Telemetry Dashboard
-    classDef default fill:#111827,stroke:#374151,stroke-width:2px,color:#F3F4F6
-    classDef engine fill:#000000,stroke:#EAB308,stroke-width:2px,color:#FEF08A
-    classDef discovery fill:#1E3A8A,stroke:#60A5FA,stroke-width:2px,color:#EFF6FF
-    classDef audit fill:#7F1D1D,stroke:#FCA5A5,stroke-width:2px,color:#FEF2F2
-    classDef brain fill:#4C1D95,stroke:#C084FC,stroke-width:3px,color:#FAF5FF,font-weight:bold
-    classDef action fill:#064E3B,stroke:#34D399,stroke-width:2px,color:#ECFDF5
 
-    A((LIVE RUNTIME)):::engine
+    CRE["⚙️ CRE<br/>Continuous Runtime Engine"]
 
-    subgraph DISCOVERY_PIPELINE [Discovery & Validation]
-        B[DIFC Discovery]:::discovery
-        C[Validation Proof]:::discovery
-        D[(Canonical State)]:::discovery
-    end
+    OBS["👁️ Observer Layer<br/>Instability • Regime • Verification"]
 
-    subgraph AUDIT_LAYER [The Challenge Layer]
-        E{{Trust Audit}}:::audit
-        F{{Freshness Audit}}:::audit
-        G{{Auto Experiments}}:::audit
-        H{{Runtime Evidence Conflicts}}:::audit
-    end
+    DIFC["🔍 DIFC<br/>Causal Discovery"]
 
-    I{EVIDENCE RECONCILIATION}:::brain
+    SBL["🧠 SBL<br/>Behavior Learning"]
 
-    subgraph EXECUTION [Intervention Pathway]
-        J[EIL Planning]:::action
-        K[/Actuation/]:::action
-    end
+    PWE["📊 PWE<br/>Weight Refinement"]
 
-    A ===> B
-    B --> C
-    C --> D
+    VAL["✅ Validation"]
 
-    D -.-> E
-    D -.-> F
-    D -.-> G
+    STAT["Statistical Validation"]
+    PHYS["Physics Validation"]
+    LIFE["Lifetime Evidence"]
 
-    A -.-> H
+    ORCH["🏛️ ORCH<br/>Orchestrator"]
 
-    E ===> I
-    F ===> I
-    G ===> I
-    H ===> I
+    CANON["📚 Canonical Truth Object"]
 
-    I ===>|Strengthen / Weaken / Reject| J
-    J --> K
+    EDGE["🔄 Edge Lifecycle"]
 
-    K ===>|Feedback Loop| A
+    VALID["🟢 VALID"]
+    LATENT["🟡 LATENT"]
+    CONFLICT["🟠 CONFLICTING"]
+    STALE["🟣 STALE"]
+    UNREL["🔴 UNRELIABLE"]
+    REJECT["❌ REJECTED"]
 
-    style DISCOVERY_PIPELINE fill:none,stroke:#4B5563,stroke-width:2px,stroke-dasharray: 5 5,color:#9CA3AF
-    style AUDIT_LAYER fill:none,stroke:#4B5563,stroke-width:2px,stroke-dasharray: 5 5,color:#9CA3AF
-    style EXECUTION fill:none,stroke:#4B5563,stroke-width:2px,stroke-dasharray: 5 5,color:#9CA3AF
+    TRUST["🤝 Trust Audit"]
+    FRESH["⏳ Freshness Audit"]
+    AEX["🧪 AEX<br/>Autonomous Experiments"]
+
+    ACIS["⚖️ ACIS<br/>Governance"]
+
+    EIL["🎯 EIL<br/>Intervention Planning"]
+
+    HUB["🔧 Theta Hub<br/>Mutation Authority"]
+
+    VERIFY["📈 Runtime Verification"]
+
+    CRE --> OBS
+
+    OBS --> DIFC
+
+    DIFC --> SBL
+    DIFC --> PWE
+
+    SBL --> VAL
+    PWE --> VAL
+
+    VAL --> STAT
+    VAL --> PHYS
+    VAL --> LIFE
+
+    STAT --> ORCH
+    PHYS --> ORCH
+    LIFE --> ORCH
+
+    ORCH --> CANON
+
+    CANON --> EDGE
+
+    EDGE --> VALID
+    EDGE --> LATENT
+    EDGE --> CONFLICT
+    EDGE --> STALE
+    EDGE --> UNREL
+    EDGE --> REJECT
+
+    EDGE --> TRUST
+    EDGE --> FRESH
+    EDGE --> AEX
+
+    TRUST --> ACIS
+    FRESH --> ACIS
+    AEX --> ACIS
+
+    ACIS --> EIL
+
+    EIL --> HUB
+
+    HUB --> VERIFY
+
+    VERIFY --> OBS
+```
 ```
 
 ### 💻 Example Runtime Reality
