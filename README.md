@@ -1,12 +1,54 @@
-# 🧠 EBIS (Engine Behavior Intelligence System)
+# 🧠 EBIS: Engine Behavior Intelligence System
 
-**An experimental self-correcting causal intelligence framework for dynamic systems.**
+> **An experimental runtime causal intelligence framework.**
+> 
+> *A discovered relationship is never treated as permanent truth. Every causal belief remains subject to validation, challenge, revision, and possible rejection as new evidence arrives.*
 
-![Version](https://img.shields.io/badge/version-v22-blue.svg)
-![Status](https://img.shields.io/badge/status-Private_Experimental_Research-red.svg)
-![Domain](https://img.shields.io/badge/domain-IC_Engine_Thermodynamics-orange.svg)
+---
 
-Unlike traditional analytics that stop at correlation, or static causal systems that treat discovered edges as permanent truth, **EBIS treats every causal belief as provisional.** It continuously challenges its own causal graph using statistical evidence, physics constraints, autonomous experiments, trust signals, and runtime feedback. A discovered relationship is never considered "true"—it must *earn* the right to be believed.
+## 🔍 What is EBIS?
+EBIS is a dynamic intelligence framework designed to operate in real-time. Instead of generating a static model, it continuously interrogates its own findings through a rigorous lifecycle:
+
+* **Discovers** causal relationships.
+* **Validates** them statistically.
+* **Checks** them against strict physics constraints.
+* **Accumulates** evidence across shifting operating regimes.
+* **Challenges** beliefs through autonomous experiments.
+* **Tracks** dynamic trust and freshness metrics.
+* **Plans** targeted interventions.
+* **Updates** beliefs based on direct runtime feedback.
+
+---
+
+## ⚡ What Makes EBIS Different?
+
+Most traditional systems stop immediately after discovering a correlation or causal relationship. **EBIS continues far beyond discovery.** It operates as a unified runtime framework that seamlessly integrates:
+1. `Causal Discovery`
+2. `Statistical & Physics Validation`
+3. `Persistent Causal Memory`
+4. `Autonomous Experimentation`
+5. `Trust & Freshness Evaluation`
+6. `Intervention Planning`
+7. `Runtime Stabilization`
+
+---
+
+## 💡 Core Design Principle
+
+> **EBIS does not maintain a static causal graph.** > It maintains a *continuously evolving set of causal beliefs* whose reliability, usefulness, and validity are constantly re-evaluated against brutal runtime evidence.
+
+---
+
+## ❓ The Core Questions
+
+Traditional causal systems typically stop at a single, static question:
+❌ *"What causes what?"*
+
+**EBIS** interrogates reality much deeper. Before acting, the system dynamically asks:
+* ✅ **Validity:** *Should this relationship still be believed?*
+* ✅ **Evidence:** *What runtime evidence supports it, and what contradicts it?*
+* ✅ **Reliability:** *Can it be fully trusted for a mechanical intervention?*
+* ✅ **Feedback:** *Did reality actually agree when the system acted upon it?*
 
 ## 🏛️ **Actual Runtime Authority Layers**
 
