@@ -217,10 +217,14 @@ flowchart TD
 
     VERIFY --> OBS
 ```
-```
+
 
 ### 💻 Example Runtime Reality
 EBIS is designed for a live, interactive CLI environment where operators can query engine states, analyze variables, and command autonomous experiments.
+
+### 🚀 **System Boot & Verification**
+
+> *Initializes the EBIS runtime environment, verifying module integrity and system signatures before accepting operator commands.*
 
 ```text
 ════════════════════════════════════════════════════════════
