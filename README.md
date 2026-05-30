@@ -79,17 +79,8 @@ Unlike traditional analytics that stop at correlation, or static causal systems 
 
 ---
 
-## 🔬 **Biggest Open Research Problem (Derived from Code)**
 
-> *The largest unresolved architectural gap in EBIS is the calibration bridge between four different operational representations of the system:*
 
-* **`[Discovery]`** ↔ **`[Experiments]`** ↔ **`[Control]`**
-  * 🔍 **`DIFC`** *works on **variable-level** causal effects.*
-  * 🧪 **`AEX`** *works on **node** perturbations.*
-  * 🎯 **`EIL`** *works on **actuators**.*
-  * 🔧 **`Hub`** *mutates **parameters**.*
-
-*These are four different representations of the exact same system. The calibration bridge between them is still incomplete, leading to structural mismatches (e.g., predicted vs. measured physical responses).*
 
 ---
 
