@@ -57,7 +57,7 @@ CEH proposes that entropy is fundamentally the *realized causal unfolding of ene
 
 The full preprint is available in the repository:
 
-📄 **[Causal Entropy: A Graph-Theoretic Framework for the Origin of Low Initial Entropy](theory/causal_entropy_preprint_2026-06-06.pdf)**  
+📄 📄 **[Causal Entropy Preprint (PDF)](causal_entropy_preprint_2026-06-06.pdf)**
 *Preprint — June 6, 2026* by Nayan Kumar
 
 This theory directly informs EBIS’s design around uncertainty quantification, latent variable detection, belief lifecycle management, and the necessity of continuous experimental challenge.
