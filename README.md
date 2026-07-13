@@ -17,7 +17,7 @@
 
 EBIS has evolved beyond a conventional engine simulation project into a research platform focused on **runtime causal reasoning, evidence-backed decision support, trust estimation, uncertainty management, and continuous scientific validation**. Rather than producing static predictions, EBIS is designed to continuously observe system behavior, discover candidate causal relationships, validate them against evidence, estimate confidence, and recommend the next most valuable experiment.
 
-> 📄 **Current Research Status:** See [`PROJECT_STATUS_JULY_2026.md`](#) for the latest project maturity, milestones, findings, and roadmap.
+> 📄 **Current Research Status:** See `PROJECT_STATUS_JULY_2026.md` for the latest project maturity, milestones, findings, and roadmap.
 
 ---
 
