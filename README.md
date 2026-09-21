@@ -21,6 +21,23 @@ EBIS has evolved beyond a conventional engine simulation project into a research
 
 ---
 
+## 🔗 Related Project — AKE Runtime
+
+[**AKE Runtime**](https://github.com/nayan9572/ake-runtime) is a related, currently separate project maintained alongside EBIS.
+
+AKE focuses on **architecture knowledge, structured-workbook verification, evidence-backed knowledge compilation, and a reusable knowledge runtime**. The AKE repository currently uses the EBIS architecture registry workbook as a reference validation dataset.
+
+The relationship is intentionally documented as **future integration direction, not present system coupling**:
+
+- Current repositories remain independently testable and auditable.
+- AKE is not claimed to be an internal EBIS subsystem today.
+- EBIS is not claimed to depend on AKE today.
+- Future work may combine capabilities from both projects under a clearly defined architecture and authority boundary.
+
+This separation preserves the current evidence base while keeping the two projects connected for future integration.
+
+---
+
 ## 📑 Table of Contents
 
 - [What is EBIS?](#what-is-ebis)
